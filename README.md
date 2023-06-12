@@ -3,18 +3,25 @@ Bookstore Inventory Managment Web Application built for a Senior Design Project
 Developer Guide
 The system is built using the T3 stack. T3 is fullstack, and typesafe, built around the
 typescript ecosystem and utilizes 6 different tools:
+
 ● Next.js - a framework to build full stack web applications built on top of react.
 Helps optimize page rendering and data fetching.
+
 ● Tailwind CSS - A utility-first CSS tool that helps build clean and responsive
 frontend components.
+
 ● Prisma - A framework that allows you to easily query and manipulate your
 database through an api built in typescript
+
 ● tRPC - a framework that allows you to connect your frontend and backend easily
 when both are created through typescript
+
 ● Typescript - Allows you to use the flexibility of javascript why strongly enforcing
 types.
+
 ● NextAuth.js - Flexible and secure authentication that can work with your existing
 database to manage users and sessions.
+
 The database that we used is a PostgreSQL database that is hosted on Railway
 Steps for Developer:
 1. Download the entire codebase
@@ -39,7 +46,11 @@ SQL database like Postgres via Railway.
 8. Get a GoogleBooks API Key
 9. For added security create a secret key for authentication
 10.When setting up your Vercel database add the following environment variables:
+
 ● DATABASE_URL=(the connection URL of your database)
+
 ● NEXTAUTH_SECRET=(the secret key you created)
+
 ● SECRET_KEY_GOOGLE_API=(your google API key)
+
 11. Follow the last deployment steps on your hosted server site.
